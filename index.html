@@ -324,8 +324,9 @@
 </div>
 
 <script>
-  const API_URL = "https://chief-campaigns-tumor-approved.trycloudflare.com/v1/chat";
-  const API_KEY = "TURBO-D06D7E2D";
+  const REAL_API = "https://tools-floating-uncle-socket.trycloudflare.com/v1/chat";
+  const API_URL = "https://corsproxy.io/?" + encodeURIComponent(REAL_API);
+  const API_KEY = "TURBO-2C82FE77";
   let selectedModel = "v3";
 
   // Model selector
